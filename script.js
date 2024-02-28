@@ -17,3 +17,14 @@ function greeting(){
 
 greeting();
 
+const zeldaJoke = "I was going to make a Legend of Zelda Joke, but it has been probably thirty years since I have played it, so I didn't want to tri and force it....."
+
+
+localStorage.setItem(`It's a secret to everybody.` , zeldaJoke)
+
+/*Just playing around ...if ("It's a secret to everybody.") {
+localStorage.getItem("It's a secret to everybody.")
+document.querySelector('p').textContent = zeldaJoke
+}else{
+    document.querySelector = greeting()
+}*/
